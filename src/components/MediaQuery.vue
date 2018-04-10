@@ -58,9 +58,9 @@ export default {
     let toRender = false
 
     if ((this.maxWidth && this.display === 'hidden') || (this.minWidth && this.display === 'visible')) {
-      toRender = this.width < this.at
+      toRender = this.width <= this.at
     } else {
-      toRender = this.width > this.at
+      toRender = this.width >= this.at
     }
 
     return toRender ? this.$slots.default[0] : null
