@@ -1,7 +1,18 @@
 {
   "name": "vue-media-query",
   "version": "0.1.0",
-  "private": true,
+  "description": "Media query component for Vue.",
+  "author": "Dillon Chanis <dillonchanis92@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "url": "dillonchanis/vue-media-query",
+    "type": "git"
+  },
+  "keywords": [
+    "vue",
+    "vue media query",
+    "media query"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
